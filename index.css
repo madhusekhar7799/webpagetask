@@ -91,6 +91,70 @@
   }
 
 
+  @media screen and (max-width: 800px) {
+    /* CSS styles here */
+    p{
+     font-size: 8px;
+    }
+    h1{
+      font-size: 24px;
+    }
+    .line{
+      border: 2px solid  rgb(28, 28, 85);
+      height: 120px;
+  
+    }
+
+    
+  
+      .new{
+        border: 2px solid  rgb(28, 28, 85);
+        opacity: 1;
+      }
+      h6{
+        font-size: 8px;
+      }
+      .dot {
+        height: 6px;
+        width: 6px;
+      }
+      li{
+        font-size: 8px;
+      }
+      ul{
+        padding-right: 14px;
+      }
+
+      .icon-size {
+        font-size: 1.5rem;
+        border: 3px solid  rgb(28, 28, 85);
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+     
+      }
+    
+      .icon-size2 {
+        font-size: 1.5rem;
+        border:  none ;
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+        color: rgb(226, 119, 119);
+        background-color:  rgb(28, 28, 85);
+     
+      }
+      .containerone{
+        padding: 0px;
+      }
+  }
+
+
+  
   @media screen and (max-width: 600px) {
     /* CSS styles here */
     p{
@@ -152,6 +216,11 @@
         padding: 0px;
       }
   }
+
+
+  
+
+ 
 
 
   

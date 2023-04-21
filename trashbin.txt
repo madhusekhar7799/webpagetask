@@ -1,3 +1,70 @@
+ 
+  @media screen and (max-width: 425px) {
+    /* CSS styles here */
+  
+      *{
+        height: 80vh;
+      }
+  }
+ 
+containerone
+ 
+  p{
+     font-size: 6px;
+    }
+    h1{
+      font-size: 20px;
+    }
+    .line{
+      border: 1px solid  rgb(28, 28, 85);
+      height: 100px;
+  
+    }
+
+    
+  
+      .new{
+        border: 1px solid  rgb(28, 28, 85);
+        opacity: 1;
+      }
+      h6{
+        font-size: 6px;
+      }
+      .dot {
+        height: 4px;
+        width: 4px;
+      }
+      li{
+        font-size: 6px;
+      }
+      ul{
+        padding-right: 10px;
+      }
+
+      .icon-size {
+        font-size: 1rem;
+        border: 3px solid  rgb(28, 28, 85);
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+     
+      }
+    
+      .icon-size2 {
+        font-size: 1rem;
+        border:  none ;
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+        color: rgb(226, 119, 119);
+        background-color:  rgb(28, 28, 85);
+     
+      }
+ 
     .line1{
       border: 1px solid  rgb(28, 28, 85);
       height: 110px;
