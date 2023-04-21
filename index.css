@@ -1,0 +1,157 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+ box-sizing: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(28, 28, 85);
+  background-color: rgb(226, 119, 119);
+}
+
+  hr{
+    margin: 0px;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(28, 28, 85);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .icon-size {
+    font-size: 2rem;
+    border: 3px solid  rgb(28, 28, 85);
+    opacity: 25;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+ 
+  }
+
+  .icon-size2 {
+    font-size: 2rem;
+    border:  none ;
+    opacity: 25;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+    color: rgb(226, 119, 119);
+    background-color:  rgb(28, 28, 85);
+ 
+  }
+  .year{
+    padding-right: 20px;
+  }
+
+  .child1{
+    width: 20%;
+    /* padding: 20px; */
+  }
+  .child2{
+    width: 40%;
+    /* padding: 20px; */
+  }
+  .child3{
+    width: 80%;
+  }
+  .child4{
+    width: 20%;
+  }
+  .child5{
+    width: 60%;
+  }
+
+  .line{
+    border: 2px solid  rgb(28, 28, 85);
+    height: 200px;
+    opacity: 1;
+
+  }
+.spl{
+  display: flex;
+  justify-content: end;
+  /* margin-top: 0px; */
+  /* padding-top: 0px; */
+  /* padding-bottom: 20px; */
+}
+  .new{
+    border: 2px solid  rgb(28, 28, 85);
+    opacity: 1;
+    width: 80%;
+    text-align: end;
+   
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    /* CSS styles here */
+    p{
+     font-size: 6px;
+    }
+    h1{
+      font-size: 20px;
+    }
+    .line{
+      border: 1px solid  rgb(28, 28, 85);
+      height: 100px;
+  
+    }
+
+    
+  
+      .new{
+        border: 1px solid  rgb(28, 28, 85);
+        opacity: 1;
+      }
+      h6{
+        font-size: 6px;
+      }
+      .dot {
+        height: 4px;
+        width: 4px;
+      }
+      li{
+        font-size: 6px;
+      }
+      ul{
+        padding-right: 10px;
+      }
+
+      .icon-size {
+        font-size: 1rem;
+        border: 3px solid  rgb(28, 28, 85);
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+     
+      }
+    
+      .icon-size2 {
+        font-size: 1rem;
+        border:  none ;
+        opacity: 25;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+        color: rgb(226, 119, 119);
+        background-color:  rgb(28, 28, 85);
+     
+      }
+      .containerone{
+        padding: 0px;
+      }
+  }
+
+
+  
